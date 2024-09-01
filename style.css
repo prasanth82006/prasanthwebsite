@@ -54,6 +54,16 @@ button{
     width: 350px;
     height: 220px;
 }
+.link{
+     width:60px;
+     height:60px;
+     display: flex;
+     padding-right: 30px;
+}
+.git{
+     width:70px;
+     height:70px; 
+}
 img{
     width: 200px;
     height: 200px;
@@ -91,6 +101,15 @@ input{
     border: 2px solid lightgrey;
     height: 15px;
 }
+input[type="email"]{
+     height: 20px;
+}
+input[type="text"]{
+     height: 20px;
+}
+.te{
+     width: 300px;
+}
 .fixiedbutton{
     position: fixed;
     bottom: 10px;
@@ -106,10 +125,15 @@ input{
     background-color: #2196f3;
 }
 footer{
-    height:100px;
+    height:200px;
     background-color: black;
     color:lightgrey;
 }
-
-
-
+ footer .last {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+     padding: 10px;
+ }
